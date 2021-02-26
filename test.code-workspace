@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ucb-virt-data-pt-11-2020-u-b"
+		}
+	],
+	"settings": {
+		"editor.renderWhitespace": "all"
+	}
+}

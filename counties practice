@@ -1,0 +1,113 @@
+# print("Hello World")
+# Hello World
+#type(3)
+<class 'int'>
+#ballots = 1,341
+#ballots
+(1, 341)
+>>> type(ballots)
+<class 'tuple'>
+>>> type(73.81)
+<class 'float'>
+>>> type("Hello World")
+<class 'str'>
+>>> type(True)
+<class 'bool'>
+>>> 5+2*3
+11
+>>> (5+2)*3
+21
+>>> counties = ["Arapahoe", "Denver","Jefferson"]
+>>> counties
+['Arapahoe', 'Denver', 'Jefferson']
+>>> counties[0]
+'Arapahoe'
+>>> print(counties[2])
+Jefferson
+>>> print(counties[-1])
+Jefferson
+>>> len(counties)
+3
+>>> counties[0:2]
+['Arapahoe', 'Denver']
+>>> counties[:2]
+['Arapahoe', 'Denver']
+>>> counties.append("El Paso")
+>>> counties
+['Arapahoe', 'Denver', 'Jefferson', 'El Paso']
+>>> counties.insert(2, "El Paso")
+>>> counties
+['Arapahoe', 'Denver', 'El Paso', 'Jefferson', 'El Paso']
+>>> counties.remove("El Paso")
+>>> counties
+['Arapahoe', 'Denver', 'Jefferson', 'El Paso']
+>>> counties.pop(3)
+'El Paso'
+>>> counties
+['Arapahoe', 'Denver', 'Jefferson']
+>>> counties[2] = "El Paso"
+>>> counties
+['Arapahoe', 'Denver', 'El Paso']
+>>> counties_tuple = ("Arapahoe", "Denver", "Jefferson")
+>>> len(counties_tuple)
+3
+>>> counties_tuple[1]
+'Denver'
+>>> counties_dict = {}
+>>> counties_dict["Arapahoe"] = 422829
+>>> counties_dict
+{'Arapahoe': 422829}
+>>> counties_dict["Denver"] = 463353
+>>> counties_dict["Jefferson] = 432438
+  File "<stdin>", line 1
+    counties_dict["Jefferson] = 432438
+                                      ^
+SyntaxError: EOL while scanning string literal
+>>> counties_dict["Jefferson"] = 432438
+>>> counties_dict
+{'Arapahoe': 422829, 'Denver': 463353, 'Jefferson': 432438}
+>>> len(counties_dict)
+3
+>>> counties_dict.items()
+dict_items([('Arapahoe', 422829), ('Denver', 463353), ('Jefferson', 432438)])
+>>> counties_dict.keys()
+dict_keys(['Arapahoe', 'Denver', 'Jefferson'])
+>>> counties_dict.values()
+dict_values([422829, 463353, 432438])
+>>> counties_dict.get("Denver)
+  File "<stdin>", line 1
+    counties_dict.get("Denver)
+                              ^
+SyntaxError: EOL while scanning string literal
+>>> counties_dict.get("Denver")
+463353
+>>> counties_dict['Arapahoe']
+422829
+>>> voting_data = []
+>>> voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
+>>> voting_data.append({"county":"Denver", "registered_voters": 463353})
+>>> voting_data.append({"county":"Jefferson", "registered_voters": 432438})
+>>> voting_data
+[{'county': 'Arapahoe', 'registered_voters': 422829}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Jefferson', 'registered_voters': 432438}]
+>>> voting_data.insert(2,{"county":"El Paso", "registered_voters": 461149})
+>>> voting_data
+[{'county': 'Arapahoe', 'registered_voters': 422829}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'El Paso', 'registered_voters': 461149}, {'county': 'Jefferson', 'registered_voters': 432438}]
+>>> voting_data.pop({"county":"El Paso", "registered_voters": 461149})
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'dict' object cannot be interpreted as an integer
+>>> voting_data.remove({"county":"El Paso", "registered_voters": 461149})
+>>> voting_data
+[{'county': 'Arapahoe', 'registered_voters': 422829}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Jefferson', 'registered_voters': 432438}]
+>>> voting_data.insert(1,{"county":"El Paso", "registered_voters": 461149})
+>>> voting_data.remove({"county":"Arapahoe", "registered_voters": 422829})
+>>> voting_data
+[{'county': 'El Paso', 'registered_voters': 461149}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Jefferson', 'registered_voters': 432438}]
+>>> voting_data.remove({"county":"Denver", "registered_voters": 463353})
+>>> voting_data.append({"county":"Denver", "registered_voters": 463353})
+>>> voting_data
+[{'county': 'El Paso', 'registered_voters': 461149}, {'county': 'Jefferson', 'registered_voters': 432438}, {'county': 'Denver', 'registered_voters': 463353}]
+>>> voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
+>>> voting_data
+[{'county': 'El Paso', 'registered_voters': 461149}, {'county': 'Jefferson', 'registered_voters': 432438}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Arapahoe', 'registered_voters': 422829}]
+>>>
