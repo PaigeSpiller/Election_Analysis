@@ -24,9 +24,17 @@ The analysis of the election is as follows:
   - Charles Casper received 23% of the vote and 85,213 number of votes
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes
+- The counties in the election were:
+  - Jefferson
+  - Denver
+  - Arapahoe
+- The county turnout by votes and percentage were:
+  - Jefferson county had 10.5% of the vote and 38,213 number of votes
+  - Denver county had 82.8% of the vote and 306,055 number of votes
+  - Arapahoe county had 6.7% of the vote and 24,801 number of votes
+
+## Conclusion
 - The winner of the election was:
   - Diana DeGette who receieved 73.8% of the vote and 272,892 number of votes
-
-## Challenge Overview
-
-## Challenge Summary
+- The county with the highest election turnout was:
+  - Denver county which had 82.8% of the vote and 306,055 number of votes
